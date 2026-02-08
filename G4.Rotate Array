@@ -1,0 +1,30 @@
+class Solution {
+    static void rotateArr(int arr[], int d) {
+        // code here
+        int n=arr.length;
+        
+        if(n==0) return;
+        
+        d=d%n;
+        if(d==0) return;
+        
+        rev(arr,0,d-1);
+        
+        rev(arr,d,n-1);
+        
+        rev(arr,0,n-1);
+        
+    }
+    
+    static void rev(int arr[],int j,int d)
+    {
+        while(j<d)
+        {
+            int t=arr[j];
+            arr[j]=arr[d];
+            arr[d]=t;
+            j++;
+            d--;
+        }
+    }
+}
