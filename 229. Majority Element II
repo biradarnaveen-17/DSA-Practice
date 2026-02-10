@@ -1,0 +1,30 @@
+import java.util.*;
+
+class Solution {
+    public List<Integer> majorityElement(int[] nums) {
+        Arrays.sort(nums);
+        List<Integer> a = new ArrayList<>();
+        int n = nums.length;
+
+        int count = 1;
+
+        for (int j = 1; j < n; j++) {
+            if (nums[j] == nums[j - 1]) {
+                count++;
+            } else {
+                // group ended, check it
+                if (count > n / 3) {
+                    a.add(nums[j - 1]);
+                }
+                count = 1;
+            }
+        }
+
+        // last group check
+        if (count > n / 3) {
+            a.add(nums[n - 1]);
+        }
+
+        return a;
+    }
+}
