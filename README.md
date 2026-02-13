@@ -31,6 +31,12 @@ This repository contains my solutions from **LeetCode**, **Striver Sheet**, **Ge
 
 🔥 **Best DSA Practice Sheet:**  
 👉 https://rajsdsasheet.netlify.app/
+👉 https://takeuforward.org/dsa
+👉 https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z
+
+## Best Free Resource
+📚 https://www.w3schools.com/java/
+📚 https://www.geeksforgeeks.org/java/
 
 ---
 
