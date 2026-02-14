@@ -12,10 +12,6 @@ This repository contains my solutions from **LeetCode**, **Striver Sheet**, **Ge
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" height="45" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://takeuforward.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/Striver79/Striver-SDE-Sheet/main/striver.png" height="45" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
   <a href="https://www.geeksforgeeks.org/" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" height="45" />
   </a>
